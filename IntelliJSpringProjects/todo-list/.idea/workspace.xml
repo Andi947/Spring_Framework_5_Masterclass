@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12588cee-876a-4ecf-93b0-ce7d7be1dec9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/java/com/company/util/thymeleaf/DecoupledLogicSetup.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/fragments/footer.th.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/fragments/head.th.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/game-over.th.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/home.th.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/play.th.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../guess-the-number-game/core/src/main/resources/messages.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../guess-the-number-game/core/src/main/resources/messages_es.properties" />
+      <change beforePath="$PROJECT_DIR$/../guess-the-number-game/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../guess-the-number-game/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/../guess-the-number-game/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../guess-the-number-game/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../guess-the-number-game/core/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/../guess-the-number-game/core/src/main/resources/logback-spring.xml" />
-      <change beforePath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/fragments/footer.html" afterPath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/fragments/footer.html" />
-      <change beforePath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/fragments/head.html" afterPath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/fragments/head.html" />
-      <change beforePath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/game-over.html" afterPath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/game-over.html" />
-      <change beforePath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/home.html" afterPath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/home.html" />
+      <change beforePath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/application.properties" />
       <change beforePath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/play.html" afterPath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/play.html" />
+      <change beforePath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/play.th.xml" afterPath="$PROJECT_DIR$/../guess-the-number-game/web/src/main/resources/templates/play.th.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -251,10 +245,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1" />
-    <option name="y" value="93" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="2326" />
+    <option name="height" value="1258" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -573,6 +567,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2326" height="1258" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
