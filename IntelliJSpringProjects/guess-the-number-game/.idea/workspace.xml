@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a15b34f-bf18-4132-b9ab-0e665e5cc1ae" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/company/interceptor/RequestInterceptor.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/company/MessageGeneratorImpl.java" afterPath="$PROJECT_DIR$/core/src/main/java/com/company/MessageGeneratorImpl.java" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/resources/logback-spring.xml" afterPath="$PROJECT_DIR$/core/src/main/resources/logback-spring.xml" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/messages.properties" afterPath="$PROJECT_DIR$/core/src/main/resources/messages.properties" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/messages_es.properties" afterPath="$PROJECT_DIR$/core/src/main/resources/messages_es.properties" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/company/config/WebConfig.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/company/config/WebConfig.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/core/target/" />
@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/core/src/main/java/com/company/MessageGeneratorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="89">
-              <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+              <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
               <folding>
                 <element signature="e#1410#1411#0" expanded="true" />
                 <element signature="e#1493#1494#0" expanded="true" />
@@ -49,12 +49,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="messages.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/resources/messages.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="ResourceBundle">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
               <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="4" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/company/interceptor/RequestInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="25" column="57" lean-forward="false" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback-spring.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/main/resources/logback-spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/company/config/WebConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="671">
+              <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+              <folding>
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,7 +138,6 @@
       <list>
         <option value="$PROJECT_DIR$/console/src/main/java/com/company/console/Main.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/company/WebMain.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/company/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/company/service/GameService.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/company/service/GameServiceImpl.java" />
@@ -97,7 +146,6 @@
         <option value="$PROJECT_DIR$/web/src/main/java/com/company/controller/GameController.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/company/util/GameMappings.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/company/util/thymeleaf/DecoupledLogicSetup.java" />
-        <option value="$PROJECT_DIR$/core/src/main/resources/logback-spring.xml" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/play.th.xml" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.html" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/fragments/head.th.xml" />
@@ -108,10 +156,13 @@
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/game-over.th.xml" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/home.html" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/home.th.xml" />
-        <option value="$PROJECT_DIR$/core/src/main/resources/messages.properties" />
         <option value="$PROJECT_DIR$/core/src/main/resources/messages_es.properties" />
         <option value="$PROJECT_DIR$/core/src/main/java/com/company/MessageGeneratorImpl.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/company/interceptor/RequestInterceptor.java" />
+        <option value="$PROJECT_DIR$/core/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/core/src/main/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/company/config/WebConfig.java" />
       </list>
     </option>
   </component>
@@ -334,7 +385,48 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
@@ -343,17 +435,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guess-the-number-game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guess-the-number-game" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="fragments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -532,7 +613,7 @@
       <updated>1535706823422</updated>
       <workItem from="1535706824618" duration="9877000" />
       <workItem from="1535962299528" duration="14285000" />
-      <workItem from="1535984466134" duration="6224000" />
+      <workItem from="1535984466134" duration="7880000" />
     </task>
     <task id="LOCAL-00001" summary="[Guess-the-number-game] Add spring boot to an existing project&#10;- moved the Main.class to the general package level to scan for the core packages">
       <created>1535707211846</created>
@@ -611,11 +692,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535987815951</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[Guess-the-number-game] Spring Internationalisation (I18n)&#10;- updated the MessageGeneratorImpl for converting messages to another locale">
+      <created>1535991249095</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1535991249095</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30386000" />
+    <option name="totallyTimeSpent" value="32042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2326" height="1258" extended-state="6" />
@@ -636,7 +724,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297769" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31910765" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2444229" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297769" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328807" sideWeight="0.49785867" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -672,7 +760,8 @@
     <MESSAGE value="[Guess-the-number-game] Thymeleaf Fragments and Challenge&#10;- created fragments directory in templates&#10;- created header.html and footer.html fragments with th:fragement=&quot;fragmentName&quot;&#10;- under specific tags in play.html, home.html &amp; game-over.html, replaced the head and footer tags with th:replace=&quot;~{fragments/templatename :: fragmentName}" />
     <MESSAGE value="[Guess-the-number-game] Thymeleaf Decoupled Template Logic &amp; Challenge&#10;- under util creted DecoupledLogicSetup and adjusted the templateResolver.setUseDecoupledLogic to true&#10;- added th.xml files for each html file&#10;- for each th.xml file &lt;thlogic&gt; &lt;attr sel=&quot;#idName&quot; th:thymeleafAction=&quot; &quot;/&gt; per thymeleaf attribute in corresponding html file" />
     <MESSAGE value="[Guess-the-number-game] Spring Internationalisation (I18n)&#10;- created the messages.properties files&#10;- updated the html files to remove the hard coded texts&#10;- updated the th.xml files with the expressions for the locale properties &quot;#{ }&quot;&#10;- tested it out with message_es.properties to translate app to Spanish&#10;- have not touched the Main and Result Messages yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Guess-the-number-game] Spring Internationalisation (I18n)&#10;- created the messages.properties files&#10;- updated the html files to remove the hard coded texts&#10;- updated the th.xml files with the expressions for the locale properties &quot;#{ }&quot;&#10;- tested it out with message_es.properties to translate app to Spanish&#10;- have not touched the Main and Result Messages yet" />
+    <MESSAGE value="[Guess-the-number-game] Spring Internationalisation (I18n)&#10;- updated the MessageGeneratorImpl for converting messages to another locale" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Guess-the-number-game] Spring Internationalisation (I18n)&#10;- updated the MessageGeneratorImpl for converting messages to another locale" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -790,8 +879,8 @@
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#430#431#0" expanded="false" />
-            <element signature="e#502#503#0" expanded="false" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -928,18 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/company/config/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#430#431#0" expanded="false" />
-            <element signature="e#502#503#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/com/company/config/GameConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -959,14 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,6 +1127,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/company/interceptor/RequestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="25" column="57" lean-forward="false" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/company/MessageGeneratorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding>
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#2229#2230#0" expanded="true" />
+            <element signature="e#2318#2319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/resources/messages_es.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
@@ -1074,30 +1182,22 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="252">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/com/company/MessageGeneratorImpl.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/company/config/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        <state relative-caret-position="671">
+          <caret line="33" column="55" lean-forward="false" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
           <folding>
-            <element signature="e#1410#1411#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#2229#2230#0" expanded="true" />
-            <element signature="e#2318#2319#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="4" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
